@@ -1,9 +1,17 @@
 {
   "name": "@elonehoo/log",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "main": "./src/index.ts",
-  "description": "Starter template for TypeScript library",
+  "description": "Keep the log output as simple as possible",
+  "homepage": "https://github.com/elonehoo/log#readme",
+  "bugs": {
+    "url": "https://github.com/elonehoo/log/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elonehoo/log.git"
+  },
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT",
   "scripts": {
