@@ -10,7 +10,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elonehoo/log.git"
+    "url": "git+https://github.com/elonehoo/log.git",
+    "directory": "packages/core"
   },
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT",
