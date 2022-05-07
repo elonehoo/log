@@ -14,7 +14,8 @@
     "coverage": "vitest run --coverage",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "dev:example":"npm -C example/vanilla run dev"
+    "dev:example":"npm -C example/vanilla run dev",
+    "build:example":"npm -C example/vanilla run build"
   },
   "devDependencies": {
     "@elonehoo/eslint-config": "^2.0.0",
