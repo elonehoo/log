@@ -4,6 +4,14 @@
   "description": "",
   "main": "index.js",
   "private": "true",
+  "homepage": "https://github.com/elonehoo/log#readme",
+  "bugs": {
+    "url": "https://github.com/elonehoo/log/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elonehoo/log.git"
+  },
   "scripts": {
     "test": "vitest",
     "coverage": "vitest run --coverage"
