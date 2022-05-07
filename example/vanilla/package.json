@@ -12,6 +12,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@elonehoo/log":"workspace:*",
     "typescript": "^4.5.4",
     "vite": "^2.9.7"
   }

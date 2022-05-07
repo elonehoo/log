@@ -13,7 +13,8 @@
     "test": "vitest",
     "coverage": "vitest run --coverage",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "dev:example":"npm -C example/vanilla run dev"
   },
   "devDependencies": {
     "@elonehoo/eslint-config": "^2.0.0",
