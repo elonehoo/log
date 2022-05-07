@@ -1,0 +1,15 @@
+{
+  "name": "@elonehoo/log-test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "author": "Elone Hoo <huchengyea@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@elonehoo/log": "workspace:*"
+  }
+}
