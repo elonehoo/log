@@ -4,6 +4,7 @@
   "type": "module",
   "main": "./src/index.ts",
   "description": "Keep the log output as simple as possible",
+  "readme": "../../README.md",
   "homepage": "https://github.com/elonehoo/log#readme",
   "bugs": {
     "url": "https://github.com/elonehoo/log/issues"
