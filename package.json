@@ -1,6 +1,7 @@
 {
   "name": "@elonehoo/log-monorepo",
   "private": "true",
+  "packageManager": "pnpm@7.0.0",
   "description": "Starter template for TypeScript library",
   "author": "Elone Hoo <huchengyea@163.com>",
   "type": "module",
