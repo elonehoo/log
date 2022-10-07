@@ -23,7 +23,7 @@
     "@elonehoo/log": "workspace:*",
     "@types/node": "17.0.45",
     "bumpp": "8.2.1",
-    "eslint": "8.23.0",
+    "eslint": "8.25.0",
     "pnpm": "7.11.0",
     "rimraf": "3.0.2",
     "typescript": "4.8.3",
