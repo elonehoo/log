@@ -27,7 +27,7 @@ jobs:
         run: pnpm run build:example
 
       - name: echo cname
-        run: echo 'log.elonehoo.xyz' > example/vanilla/dist/CNAME
+        run: echo 'log.elonehoo.me' > example/vanilla/dist/CNAME
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3
