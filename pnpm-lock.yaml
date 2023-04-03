@@ -6,7 +6,7 @@ importers:
     specifiers:
       '@elonehoo/eslint-config': 2.0.0
       '@elonehoo/log': workspace:*
-      '@types/node': 17.0.45
+      '@types/node': 18.15.11
       bumpp: 8.2.1
       eslint: 8.31.0
       pnpm: 7.23.0
@@ -18,14 +18,14 @@ importers:
     devDependencies:
       '@elonehoo/eslint-config': 2.0.0_iukboom6ndih5an6iafl45j2fe
       '@elonehoo/log': link:packages/core
-      '@types/node': 17.0.45
+      '@types/node': 18.15.11
       bumpp: 8.2.1
       eslint: 8.31.0
       pnpm: 7.23.0
       rimraf: 3.0.2
       typescript: 4.9.4
       unbuild: 0.9.4
-      vite: 3.2.5_@types+node@17.0.45
+      vite: 3.2.5_@types+node@18.15.11
       vitest: 0.27.0
 
   example/vanilla:
@@ -619,6 +619,10 @@ packages:
 
   /@types/node/17.0.45:
     resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
+    dev: true
+
+  /@types/node/18.15.11:
+    resolution: {integrity: sha512-E5Kwq2n4SbMzQOn6wnmBjuK9ouqlURrcZDVfbo9ftDDTFt3nk7ZKK4GMOzoYgnpQJKcxwQw+lGaBvvlMo0qN/Q==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
@@ -3658,6 +3662,40 @@ packages:
         optional: true
     dependencies:
       '@types/node': 17.0.45
+      esbuild: 0.15.18
+      postcss: 8.4.21
+      resolve: 1.22.1
+      rollup: 2.79.1
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
+  /vite/3.2.5_@types+node@18.15.11:
+    resolution: {integrity: sha512-4mVEpXpSOgrssFZAOmGIr85wPHKvaDAcXqxVxVRZhljkJOMZi1ibLibzjLHzJvcok8BMguLc7g1W6W/GqZbLdQ==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    hasBin: true
+    peerDependencies:
+      '@types/node': '>= 14'
+      less: '*'
+      sass: '*'
+      stylus: '*'
+      sugarss: '*'
+      terser: ^5.4.0
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      less:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+    dependencies:
+      '@types/node': 18.15.11
       esbuild: 0.15.18
       postcss: 8.4.21
       resolve: 1.22.1

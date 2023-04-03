@@ -21,7 +21,7 @@
   "devDependencies": {
     "@elonehoo/eslint-config": "2.0.0",
     "@elonehoo/log": "workspace:*",
-    "@types/node": "17.0.45",
+    "@types/node": "18.15.11",
     "bumpp": "8.2.1",
     "eslint": "8.31.0",
     "pnpm": "7.23.0",
