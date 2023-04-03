@@ -22,7 +22,7 @@
     "@elonehoo/eslint-config": "2.0.0",
     "@elonehoo/log": "workspace:*",
     "@types/node": "17.0.45",
-    "bumpp": "8.2.1",
+    "bumpp": "9.1.0",
     "eslint": "8.31.0",
     "pnpm": "7.23.0",
     "rimraf": "3.0.2",
