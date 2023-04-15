@@ -2,7 +2,7 @@
   "name": "@elonehoo/log-vanilla",
   "version": "0.0.0",
   "description": "",
-  "private":"true",
+  "private": "true",
   "main": "index.js",
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT",
@@ -12,8 +12,8 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@elonehoo/log":"workspace:*",
-    "typescript": "4.9.4",
-    "vite": "3.2.5"
+    "@elonehoo/log": "workspace:*",
+    "typescript": "5.0.4",
+    "vite": "4.2.1"
   }
 }

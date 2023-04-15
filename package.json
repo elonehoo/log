@@ -8,27 +8,27 @@
   "license": "MIT",
   "version": "0.0.7",
   "scripts": {
-    "prepare": "pnpm -r run stub",
+    "build":"pnpm -C packages/core run build",
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public",
     "typeCheck": "tsc --noEmit",
     "test": "vitest",
     "coverage": "vitest run --coverage",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "dev:example":"npm -C example/vanilla run dev",
-    "build:example":"npm -C example/vanilla run build"
+    "dev:example": "npm -C example/vanilla run dev",
+    "build:example": "npm -C example/vanilla run build"
   },
   "devDependencies": {
     "@elonehoo/eslint-config": "2.0.0",
     "@elonehoo/log": "workspace:*",
-    "@types/node": "17.0.45",
-    "bumpp": "8.2.1",
-    "eslint": "8.31.0",
-    "pnpm": "7.23.0",
-    "rimraf": "3.0.2",
-    "typescript": "4.9.4",
-    "unbuild": "0.9.4",
-    "vite": "3.2.5",
-    "vitest": "0.27.0"
+    "@types/node": "18.15.11",
+    "bumpp": "9.1.0",
+    "eslint": "8.38.0",
+    "pnpm": "8.2.0",
+    "rimraf": "5.0.0",
+    "typescript": "5.0.4",
+    "unbuild": "1.2.1",
+    "vite": "4.2.1",
+    "vitest": "0.30.1"
   }
 }
