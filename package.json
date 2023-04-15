@@ -10,7 +10,7 @@
   "scripts": {
     "build":"pnpm -C packages/core run build",
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public",
-    "typeCheck": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
     "test": "vitest",
     "coverage": "vitest run --coverage",
     "lint": "eslint .",
@@ -29,6 +29,7 @@
     "typescript": "5.0.4",
     "unbuild": "1.2.1",
     "vite": "4.2.1",
-    "vitest": "0.30.1"
+    "vitest": "0.30.1",
+    "@vitest/coverage-c8": "^0.30.1"
   }
 }
