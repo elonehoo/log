@@ -1,11 +1,11 @@
 {
   "name": "@elonehoo/log-vanilla",
   "version": "0.0.0",
-  "description": "",
   "private": "true",
-  "main": "index.js",
-  "author": "Elone Hoo <huchengyea@163.com>",
+  "description": "",
   "license": "MIT",
+  "author": "Elone Hoo <huchengyea@163.com>",
+  "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

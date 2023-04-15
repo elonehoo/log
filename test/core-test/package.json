@@ -1,23 +1,23 @@
 {
   "name": "@elonehoo/log-test",
   "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
   "private": "true",
-  "homepage": "https://github.com/elonehoo/log#readme",
-  "bugs": {
-    "url": "https://github.com/elonehoo/log/issues"
-  },
+  "description": "",
+  "license": "MIT",
+  "author": "Elone Hoo <huchengyea@163.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/elonehoo/log.git"
+  },
+  "main": "index.js",
+  "homepage": "https://github.com/elonehoo/log#readme",
+  "bugs": {
+    "url": "https://github.com/elonehoo/log/issues"
   },
   "scripts": {
     "test": "vitest",
     "coverage": "vitest run --coverage"
   },
-  "author": "Elone Hoo <huchengyea@163.com>",
-  "license": "MIT",
   "devDependencies": {
     "@elonehoo/log": "workspace:*"
   }

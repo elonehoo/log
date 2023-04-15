@@ -1,21 +1,33 @@
 {
   "name": "@elonehoo/log",
   "version": "0.0.7",
-  "type": "module",
-  "main": "./src/index.ts",
   "description": "Keep the log output as simple as possible",
-  "readme": "../../README.md",
   "homepage": "https://github.com/elonehoo/log#readme",
   "bugs": {
     "url": "https://github.com/elonehoo/log/issues"
   },
+  "license": "MIT",
+  "author": "Elone Hoo <huchengyea@163.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/elonehoo/log.git",
     "directory": "packages/core"
   },
-  "author": "Elone Hoo <huchengyea@163.com>",
-  "license": "MIT",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    },
+    "./*": "./*"
+  },
+  "files": [
+    "dist",
+    "*.d.ts"
+  ],
   "scripts": {
     "build": "rimraf dist && unbuild",
     "stub": "unbuild --stub",
