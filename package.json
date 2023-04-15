@@ -3,7 +3,6 @@
   "type": "module",
   "version": "0.0.7",
   "private": "true",
-  "packageManager": "pnpm@7.23.0",
   "description": "Starter template for TypeScript library",
   "license": "MIT",
   "author": "Elone Hoo <huchengyea@163.com>",
@@ -22,6 +21,7 @@
     "@elonehoo/eslint-config": "2.0.0",
     "@elonehoo/log": "workspace:*",
     "@types/node": "18.15.11",
+    "@vitest/coverage-c8": "^0.30.1",
     "bumpp": "9.1.0",
     "eslint": "8.38.0",
     "pnpm": "8.2.0",
@@ -29,7 +29,6 @@
     "typescript": "5.0.4",
     "unbuild": "1.2.1",
     "vite": "4.2.1",
-    "vitest": "0.30.1",
-    "@vitest/coverage-c8": "^0.30.1"
+    "vitest": "0.30.1"
   }
 }
