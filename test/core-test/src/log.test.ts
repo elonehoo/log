@@ -1,3 +1,4 @@
+import { it } from 'vitest'
 import log from '@elonehoo/log'
 
 it('test log', () => {
