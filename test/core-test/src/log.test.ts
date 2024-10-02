@@ -1,5 +1,5 @@
-import { it } from 'vitest'
 import log from '@elonehoo/log'
+import { it } from 'vitest'
 
 it('test log', () => {
   log.setLevel(6)
