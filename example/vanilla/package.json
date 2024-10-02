@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": "true",
   "description": "",
-  "license": "MIT",
   "author": "Elone Hoo <huchengyea@163.com>",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "dev": "vite",

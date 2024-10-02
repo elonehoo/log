@@ -1,7 +1,6 @@
-import { test } from 'vitest'
 import log from '@elonehoo/log'
 
-test('test log', () => {
+it('test log', () => {
   log.setLevel(6)
 
   // simple logging

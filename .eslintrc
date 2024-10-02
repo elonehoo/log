@@ -1,6 +1,0 @@
-{
-  "extends": "@elonehoo",
-  "rules":{
-    "no-console":"off"
-  }
-}

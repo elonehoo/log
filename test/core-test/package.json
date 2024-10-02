@@ -3,17 +3,17 @@
   "version": "0.0.0",
   "private": "true",
   "description": "",
-  "license": "MIT",
   "author": "Elone Hoo <huchengyea@163.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/elonehoo/log#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/elonehoo/log.git"
   },
-  "main": "index.js",
-  "homepage": "https://github.com/elonehoo/log#readme",
   "bugs": {
     "url": "https://github.com/elonehoo/log/issues"
   },
+  "main": "index.js",
   "scripts": {
     "test": "vitest",
     "coverage": "vitest run --coverage"

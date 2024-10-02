@@ -2,31 +2,31 @@
   "name": "@elonehoo/log",
   "version": "0.1.1",
   "description": "Keep the log output as simple as possible",
-  "homepage": "https://github.com/elonehoo/log#readme",
-  "bugs": {
-    "url": "https://github.com/elonehoo/log/issues"
-  },
-  "license": "MIT",
   "author": "Elone Hoo <huchengyea@163.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/elonehoo/log#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/elonehoo/log.git",
     "directory": "packages/core"
   },
-  "main": "dist/index.cjs",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/elonehoo/log/issues"
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.mjs"
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
     },
     "./*": "./*"
   },
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "files": [
-    "dist",
-    "*.d.ts"
+    "*.d.ts",
+    "dist"
   ],
   "scripts": {
     "build": "rimraf dist && unbuild",
