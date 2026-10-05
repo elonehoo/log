@@ -22,7 +22,7 @@
     "@elonehoo/log": "workspace:*",
     "@types/node": "24.12.0",
     "@vitest/coverage-v8": "^4.1.0",
-    "bumpp": "11.0.0",
+    "bumpp": "12.3.0",
     "eslint": "9.38.0",
     "pnpm": "10.19.0",
     "rimraf": "6.0.1",
