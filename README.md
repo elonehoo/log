@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="./public/logo.svg" width="100px" height="100px" />
+  <img src="./public/logo.svg" width="100px" height="100px" alt="logo" />
 </div>
 
 <h1 align="center">@elonehoo/log</h1>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@elonehoo/log">
-    <img src="https://img.shields.io/npm/v/@elonehoo/log?color=81A2BE&label=" />
+    <img src="https://img.shields.io/npm/v/@elonehoo/log?color=81A2BE&label=" alt="npm version" />
   </a>
 </p>
 
