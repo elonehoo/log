@@ -1,4 +1,16 @@
+# pnpm 11+ defaults minimumReleaseAge to 1440 minutes and rejects lockfile
+# entries published inside that window. CI installs with --no-frozen-lockfile,
+# so disable the cutoff.
+minimumReleaseAge: 0
+minimumReleaseAgeExcludePrune: true
+trustPolicy: no-downgrade
+shellEmulator: true
+
 packages:
   - 'packages/*'
   - 'test/*'
   - 'example/*'
+
+allowBuilds:
+  esbuild: true
+  pnpm: true
