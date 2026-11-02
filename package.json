@@ -21,7 +21,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^9.5.1",
     "@elonehoo/log": "workspace:*",
-    "@types/node": "24.19.2",
+    "@types/node": "26.6.6",
     "@typescript/native": "npm:typescript@7.0.2",
     "@vitest/coverage-v8": "^5.0.5",
     "bumpp": "12.3.0",
