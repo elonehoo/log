@@ -22,7 +22,7 @@ jobs:
           node-version: latest
 
       - name: Install pnpm
-        uses: pnpm/action-setup@v6.1.0
+        uses: pnpm/action-setup@v6.1.1
 
       - name: Install
         run: pnpm install --no-frozen-lockfile
@@ -45,7 +45,7 @@ jobs:
           node-version: latest
 
       - name: Install pnpm
-        uses: pnpm/action-setup@v6.1.0
+        uses: pnpm/action-setup@v6.1.1
 
       - name: Install
         run: pnpm install --no-frozen-lockfile
@@ -68,7 +68,7 @@ jobs:
           node-version: latest
 
       - name: Install pnpm
-        uses: pnpm/action-setup@v6.1.0
+        uses: pnpm/action-setup@v6.1.1
 
       - name: Install
         run: pnpm install --no-frozen-lockfile
@@ -91,7 +91,7 @@ jobs:
           node-version: latest
 
       - name: Install pnpm
-        uses: pnpm/action-setup@v6.1.0
+        uses: pnpm/action-setup@v6.1.1
 
       - name: Install
         run: pnpm install --no-frozen-lockfile
